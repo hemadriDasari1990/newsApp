@@ -1,0 +1,14 @@
+{
+	"dbConfig":{
+		"host": "",
+		"user": "",
+		"password": "",
+		"dbName": ""
+	},
+	"app": {
+		"port": 3000,
+		"gcInterval": 3600000
+	},
+	"apiKey": "94c7a47f31434c81a219b6c405ddde1c",
+	"serviceName": "newsService"
+}

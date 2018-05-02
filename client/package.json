@@ -1,0 +1,52 @@
+{
+  "name": "cni-news-app",
+  "version": "1.0.0",
+  "description": "CNI News application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --content-base public --history-api-fallback",
+    "lint": "./node_modules/.bin/eslint src/App.js",
+    "test": "jest"
+  },
+  "author": "Hemadri Dasari",
+  "license": "ISC",
+  "dependencies": {
+    "material-ui": "^0.20.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.24.0",
+    "enzyme": "^3.3.0",
+    "enzyme-to-json": "^3.3.3",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.7.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^1.1.11",
+    "jest": "^22.4.3",
+    "react-addons-test-utils": "^15.6.2",
+    "react-hot-loader": "^1.3.0",
+    "react-test-renderer": "^15.4.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^1.0.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}

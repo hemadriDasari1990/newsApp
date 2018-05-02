@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
+	body {
+		background-color: #fff;
+		font-family: 'Georgia','Times',serif;
+	}
+
+	.container{
+		background-color: #fdf7f72e;
+	}
+
+	.footer-bottom {
+	    min-height: 30px;
+	}
+	.copyright {
+	    color: #333;
+	    line-height: 30px;
+	    min-height: 30px;
+	    padding: 7px 0;
+	}
+	.design {
+	    color: #333;
+	    line-height: 30px;
+	    min-height: 30px;
+	    padding: 7px 0;
+	    text-align: right;
+	}
+	.design a {
+	    color: #333;
+	}
+
+	.badge{
+		background-color: #de221c;
+	}
+
+	#body-content{
+		height: 500px;
+	}
+
+	h2, h3 {
+		text-align: center;
+		color: #333;
+	}
