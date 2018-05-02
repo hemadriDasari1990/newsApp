@@ -1,5 +1,5 @@
 {
-  "name": "newsservice",
+  "name": "newsService",
   "version": "1.0.0",
   "description": "APIs for News App",
   "main": "index.js",

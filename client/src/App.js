@@ -146,7 +146,7 @@ export default class App extends Component {
   renderHeader = () => {
     return (
       <header>
-        <Header appName="Conde Nast International News (Sample App)"/>
+        <Header appName="Condé Nast International News (Sample App)"/>
       </header>
     )
   }
